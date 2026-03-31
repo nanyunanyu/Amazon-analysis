@@ -66,7 +66,8 @@ try:
     f_df = df.loc[mask]
 
     # --- 主界面 ---
-    st.title("📊 Amazon 电商数据洞察 Dashboard")
+    st.image("https://s1.chu0.com/src/img/png/07/074a65e2f7504570befac5c0bd281a1e.png?e=2051020800&token=1srnZGLKZ0Aqlz6dk7yF4SkiYf4eP-YrEOdM1sob:s1q-6EM6O-BIOd4yxBa2_hqdA8I=")
+    st.title(" Amazon 电商数据洞察 Dashboard")
     
     # KPI 指标
     c1, c2, c3, c4 = st.columns(4)
